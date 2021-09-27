@@ -1,0 +1,21 @@
+<form (ngSubmit)="saveLocation()">
+
+  <input type="text"
+         name="title"
+         [(ngModel)]="location.title"
+         placeholder="Enter location name"
+  />
+
+  <input type="text"
+         name="locations"
+         [(ngModel)]="location.locations"
+         placeholder="Enter location locations"
+  />
+
+  <br>
+
+  <button type="button" value="Go back!" onclick="history.back()" class='gradient-button'>Back</button>
+  <button type="submit" class='gradient-button'>Confirm</button>
+  <button *ngIf="location.id" (click)="deleteLocation(location.id)" class='gradient-button'>Delete</button>
+
+</form>

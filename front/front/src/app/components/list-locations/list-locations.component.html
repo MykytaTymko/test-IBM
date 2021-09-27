@@ -1,0 +1,15 @@
+<a routerLink="/addlocation" class="gradient-button">Add Location</a>
+
+<input type="text"
+       [(ngModel)]="filters.keyword"
+       name=""
+       (input)="listLocations()"
+       class="search"
+       placeholder="Search by title">
+
+<div *ngFor='let location of locations' class="oneElement">
+  <h3>{{location.title}}</h3>
+  <p>{{location.locations}}</p>
+  <a routerLink="/editlocation/{{location.id}}" class='gradient-button'>Edit</a>
+  <button (click)="deleteLocation(location.id)" class='gradient-button'>Delete</button>
+</div>

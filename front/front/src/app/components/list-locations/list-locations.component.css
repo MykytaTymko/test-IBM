@@ -1,0 +1,13 @@
+.search{
+  display:block;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.oneElement{
+  outline: 2px solid #000;
+  width: 400px;
+  padding: 10px;
+  margin: 12px auto;
+}

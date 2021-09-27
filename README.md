@@ -26,6 +26,6 @@
 
 ## How to Get Started
 1) Launch the back-end side (TestIbmBackApplication).
-2) Launch the front-end side (Angular CLI Server (test-IBM-front)).
-3) Go to http://localhost:4200/.
+2) Launch the front-end side (Angular CLI Server).
+3) Go to http://localhost:4200/ or open Angular Application.
 4) To view only the server part, go to http://localhost:8080/api/locations.
