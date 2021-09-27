@@ -25,7 +25,9 @@
 - When adding a new record or editing an existing one, the fields cannot be empty. Otherwise, you will see a "Parameters must not be empty!" warning in the Web Console.
 
 ## How to Get Started
-1) Launch the back-end side (TestIbmBackApplication).
-2) Launch the front-end side (Angular CLI Server).
-3) Go to http://localhost:4200/ or open Angular Application.
-4) To view only the server part, go to http://localhost:8080/api/locations.
+1) For back-end you need to link Gradle project. For this in package back click wright button mouse on build.gradle and choose Link Gradle Project.
+2) Launch the back-end side (class TestIbmBackApplication).
+3) In package front in file package.json run script ng install. But control so that the Command field in the window that opens is set to install.
+4) Launch the front-end side in file package.json run script ng serve.
+5) Go to http://localhost:4200 or create new JavaScript Debug.
+6) To view only the server part, go to http://localhost:8080/api/locations.
