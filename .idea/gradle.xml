@@ -5,10 +5,10 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/test-IBM-back" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/back/test-IBM-back" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/test-IBM-back" />
+            <option value="$PROJECT_DIR$/back/test-IBM-back" />
           </set>
         </option>
       </GradleProjectSettings>
